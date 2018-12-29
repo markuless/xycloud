@@ -24,6 +24,15 @@ turbine:
     combine-host-port: true
     cluster-name-expression: new String('default') #集群名称
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+
 notifier:
   mobile:
     enabled: true
