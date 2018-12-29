@@ -2,6 +2,10 @@ server:
   port: 5001
 
 spring:
+  security:
+    user:
+      name: hhcao
+      password: 123456
   # zipkin:
   #     base-url: http://localhost:5002
   # sleuth:
