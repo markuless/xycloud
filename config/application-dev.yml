@@ -73,7 +73,7 @@ hystrix:
 #监控短点配置
 management:
   security:
-    enabled: false
+    enabled: true
 endpoints:
   actuator:
     enabled: true
